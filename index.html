@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="images-row">
+            <img id="bezos" src="images/bezos_1.png">
+            <img id="musk" src="images/musk_1.png">
+            <img id="obama" src="images/obama_1.png">
+            <img id="das" src="images/das_1.png">
+            <img id="aristotle" src="images/aristotle_1.png">
+        </div>
+
+        <div class="buttons-row">
+            <button onclick="setPerson('bezos')">Jeff Bezos</button>
+            <button onclick="setPerson('musk')">Elon Musk</button>
+            <button onclick="setPerson('obama')">Barack Obama</button>
+            <button onclick="setPerson('das')">Gaur Gopal Das</button>
+            <button onclick="setPerson('aristotle')">Aristotle</button>
+        </div>
+
+        <button onclick="getQuote()" id="get-quote-button" class="get-quote">
+            GET QUOTE
+        </button>
+
+        <p id="quote"></p>
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
